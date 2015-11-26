@@ -1,4 +1,4 @@
-### Building a Rails application with Backbone.js and Coffeescript
+### Building a Rails application with Backbone.js, Coffeescript, and lodash.js
 
 Set up Rails project
 
@@ -13,5 +13,16 @@ rails new . -T
 #create the database if not already created
 rake db:create
 ```
+
+Backbone and lodash
+
+```
+gem 'backbone-on-rails', '~> 1.1.0.0'
+gem 'lodash-rails', '~> 2.2.1'
+$ rails generate backbone:install
+```
+
+
+
 
 
